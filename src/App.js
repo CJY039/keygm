@@ -7,6 +7,10 @@ import Signup from "./Signup";
 import List from "./List";
 
 import "./App.css";
+import PBT from "./CK87-PBT";
+import SL from "./CK01-TKL-PBT-SL";
+import TKL from "./CX87-TKL";
+import CY from "./CY104";
 
 export default function App() {
   return (
@@ -17,6 +21,10 @@ export default function App() {
         <Route path="/logout" element={<Logout />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/list" element={<List />} />
+        <Route path="/CK87-PBT" element={<PBT />} />
+        <Route path="/CK01-TKL-PBT-SL" element={<SL />} />
+        <Route path="/CX87-TKL" element={<TKL />} />
+        <Route path="/CY104" element={<CY />} />
       </Routes>
     </BrowserRouter>
   );

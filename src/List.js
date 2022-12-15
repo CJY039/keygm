@@ -65,7 +65,8 @@ export default function List() {
               <Name>{name}</Name>
               <Description>{description}</Description>
               <DetailBox>
-                <Detail href={link} target="_blank" rel="noopener noreferrer">
+                {/* <Detail href={link} target="_blank" rel="noopener noreferrer"> */}
+                <Detail href={name}>
                   보러가기
                 </Detail>
               </DetailBox>
