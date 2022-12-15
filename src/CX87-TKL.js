@@ -35,7 +35,7 @@ export default function TKL() {
       <Button href="https://www.youtube.com/watch?v=yz3dU8K57hI" target="_blank" rel="noopener noreferrer">들으러 가기</Button>
       <Divider />
       <Name>구매 링크</Name>
-      <Button>구매하러 가기</Button>
+      <Button href="https://prod.danawa.com/info/?pcode=15004838&keyword=cx87&cate=112782" target="_blank" rel="noopener noreferrer">구매하러 가기</Button>
     </Container>
   );
 }

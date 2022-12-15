@@ -35,7 +35,7 @@ export default function PBT() {
       <Button href="https://www.youtube.com/watch?v=TqOOrn-8qF0" target="_blank" rel="noopener noreferrer">들으러 가기</Button>
       <Divider />
       <Name>구매 링크</Name>
-      <Button>구매하러 가기</Button>
+      <Button href="https://www.abko.co.kr/brand/detail.php?it_id=1633419570" target="_blank" rel="noopener noreferrer">구매하러 가기</Button>
     </Container>
   );
 }
